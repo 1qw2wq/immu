@@ -1,0 +1,16 @@
+/* Custom Styles */
+
+:root {
+  --primary: #137fec;
+  --primary-dark: #0b5db0;
+  --background-light: #f6f7f8;
+  --background-dark: #101922;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
